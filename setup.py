@@ -40,7 +40,7 @@ if __name__ == '__main__':
         install_requires=[
             'pytest',
             'dataclasses',
-            'om-pycycle @ git+https://github.com/a76yyyy/pyCycle.git#egg=pycycle',
+            'pycycle @ git+https://github.com/a76yyyy/pyCycle.git#egg=om-pycycle',
             'openmdao>=3.4.0',
             'ordered_set',
             'numpy',
